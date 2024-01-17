@@ -5,7 +5,7 @@ public class App {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        hedgehog siili = new hedgehog();
+        Hedgehog siili = new Hedgehog();
 
         boolean exit = false;
 
@@ -32,7 +32,7 @@ public class App {
                     System.out.println("Anna siilin ikä:");
                     uusiIka = Integer.parseInt(scanner.nextLine());
 
-                    siili = new hedgehog(uusiNimi, uusiIka);
+                    siili = new Hedgehog(uusiNimi, uusiIka);
                     break;
                     
                 case 3:
@@ -48,7 +48,7 @@ public class App {
                     break;
 
                 default:
-                    System.out.println("Syöte oli väärä. Valitse oikea numero.");
+                    System.out.println("Syöte oli väärä.");
                     break;
                 }
             }
