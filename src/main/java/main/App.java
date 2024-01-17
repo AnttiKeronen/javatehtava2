@@ -48,7 +48,7 @@ public class App {
                     break;
 
                 default:
-                    System.out.println("Syöte oli väärä.");
+                    System.out.println("Syöte oli väärä");
                     break;
                 }
             }
